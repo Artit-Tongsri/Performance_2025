@@ -148,13 +148,10 @@ h1 {
 }
 
 @media (max-width: 768px) {
-    .paper-card { padding: 30px 15px; }
-    .gallery-grid {
-        grid-template-columns: 1fr; /* ให้แสดงเป็นคอลัมน์เดียวในมือถือ */
-    }
-    .nav-buttons {
-        flex-direction: column;
-        gap: 15px;
-        align-items: center;
-    }
+    .nav-con { flex-direction: column; }
+    .menu { flex-direction: column; text-align: center; margin-top: 15px; }
+    .header-section { flex-direction: column-reverse; text-align: center; gap: 20px;}
+    .info-grid { grid-template-columns: 1fr; }
+    .paper-card { padding: 30px; }
+    .review-date { text-align: left; }
 }
